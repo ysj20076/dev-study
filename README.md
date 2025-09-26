@@ -22,8 +22,8 @@
 ## 📂 Structure
 
 dev-study/
-├─ java/ ### Java 문법, OOP, 스프링 기초 등
-├─ db/ ### SQL, 정규화, 인덱스, DB 설계 등
+├─ java/ # Java 문법, OOP, 스프링 기초 등
+├─ db/ # SQL, 정규화, 인덱스, DB 설계 등
 ├─ algorithm/ # Baekjoon, Programmers 풀이
 └─ README.md
 
