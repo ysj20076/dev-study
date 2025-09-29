@@ -26,19 +26,21 @@ class Main {
     public static void main(String[] args) throws IOException {
         while(true) {
             Scanner sc = new Scanner(System.in);
-            int number = sc.nextInt();
+            int n = sc.nextInt();//1234
 
-            if(number == 0) break;
+            if(n == 0) break;
 
+            int origin = n; //1234
             int reverse = 0;
-            int origin = number;
-            while(number > 0) { //if 1234
-                int digit = number % 10; //digit = 4
-                reverse = reverse * 10 + digit; //reverse = 4
-                number /= 10; //num = 123
+
+            while(n > 0) {
+                reverse = reverse * 10 + (n%10); //4
+                n = n / 10; //123
             }
+
             if(origin == reverse) System.out.println("yes");
             else System.out.println("no");
+
         }
 
     }
