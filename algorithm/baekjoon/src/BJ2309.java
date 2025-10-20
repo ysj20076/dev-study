@@ -35,13 +35,16 @@ public class BJ2309 {
             if(fake1 != -1) break;
         }
 
-        //오름차순 정렬
-        Arrays.sort(height);
-
+        // 가짜 둘을 뺀 7명만 따로 담고 정렬
+        int[] answer = new int[7];
+        int idx = 0;
         for (int i = 0; i < 9; i++) {
             if (i == fake1 || i == fake2) continue;
-            System.out.println(height[i]);
+            answer[idx++] = height[i];
         }
+
+        Arrays.sort(answer);
+        for (int h : answer) System.out.println(h);
 
     }
 }
