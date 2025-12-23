@@ -21,6 +21,7 @@
 ---
 
 ## 📂 Structure
+
 ```
 dev-study/
 ├─ java/ # Java 문법, OOP, 스프링 기초 등
@@ -29,4 +30,12 @@ dev-study/
 ├─ spring/ # spring 공부 진행
 └─ README.md
 ```
+
 ---
+
+=======
+
+## 📝 Study Log
+
+- 2025-09-26: 백준 풀이
+  dev-study
