@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: basic_todo_db
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_DATABASE: basic_todo_db
+      MYSQL_USER: yoon
+      MYSQL_PASSWORD: yoon1234
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+volumes:
+  mysql-data:
