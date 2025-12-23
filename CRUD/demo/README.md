@@ -68,4 +68,4 @@ docker-compose up -d
 
 
 ## 남은 할일
-- curl로 데이터를 전송하여 흐름 확인하기
+- postman으로 데이터를 전송하여 흐름 확인하기
